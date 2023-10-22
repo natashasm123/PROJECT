@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <title>Contact</title>
+    <style>
+        #one:hover {
+            background-color: skyblue;
+        }
+
+        body {
+            background-image: url(https://www.shutterstock.com/image-photo/hand-hold-icon-symbol-telephone-260nw-2048749322.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0; 
+            padding: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        fieldset {
+            border: 2px ridge rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 2%;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="P-Reply.html">
+        <fieldset>
+            <legend><h1>Contact Me</h1></legend>
+
+            <label for="sal"><b>Salutation</b></label>
+            <br>
+            <select name="Sal" id="sal">
+                <option value="--None--"><b>--None--</b></option>
+                <option value="Mr."><b>Mr.</b></option>
+                <option value="Ms."><b>Ms.</b></option>
+                <option value="Dr."><b>Dr.</b></option>
+            </select>
+            
+            <br><br>
+            
+            <label for="uname"><b>Name</b></label>
+
+            &nbsp; &nbsp; &nbsp;
+            <input type="text" required id="uname" pattern="[A-Za-z]{3,7}">
+            <br> <br>
+
+            <label for="email"><b>Email</b></label>
+            &nbsp; &nbsp; &nbsp;
+            <input type="text" required id="Email">
+            <br> <br> <br> <br>   
+
+            <label for="add"><b>Your Message</b></label>
+            <br>
+            <textarea name="add" id="add" cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+        <input type="Submit" id="one">
+     </form>
+</body>
+</html>
