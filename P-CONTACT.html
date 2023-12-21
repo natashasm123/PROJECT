@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Contact</title>
     <style>
         #one:hover {
@@ -15,13 +16,12 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            margin: 0; 
-            padding: 0; 
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
         }
 
         fieldset {
@@ -33,10 +33,13 @@
         }
     </style>
 </head>
+
 <body>
     <form action="P-Reply.html">
         <fieldset>
-            <legend><h1>Contact Me</h1></legend>
+            <legend>
+                <h1>Contact Me</h1>
+            </legend>
 
             <label for="sal"><b>Salutation</b></label>
             <br>
@@ -46,11 +49,10 @@
                 <option value="Ms."><b>Ms.</b></option>
                 <option value="Dr."><b>Dr.</b></option>
             </select>
-            
-            <br><br>
-            
-            <label for="uname"><b>Name</b></label>
 
+            <br><br>
+
+            <label for="uname"><b>Name</b></label>
             &nbsp; &nbsp; &nbsp;
             <input type="text" required id="uname" pattern="[A-Za-z]{3,7}">
             <br> <br>
@@ -58,15 +60,15 @@
             <label for="email"><b>Email</b></label>
             &nbsp; &nbsp; &nbsp;
             <input type="text" required id="Email">
-            <br> <br> <br> <br>   
+            <br> <br> <br> <br>
 
             <label for="add"><b>Your Message</b></label>
             <br>
             <textarea name="add" id="add" cols="30" rows="10"></textarea>
-
         </fieldset>
 
         <input type="Submit" id="one">
-     </form>
+    </form>
 </body>
+
 </html>
