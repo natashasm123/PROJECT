@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            background-image: url(https://i.pinimg.com/736x/5c/b5/34/5cb5344bd3af65f75fd3da0aaf67df58.jpg);
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/1024px-A_black_image.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -16,10 +16,19 @@
         }
 
         header {
-            background-color: rgba(0, 0, 0, 0.6); 
+            background-color: transparent;
             padding: 10px;
+            position: relative;
+            border-bottom: none;
         }
-
+        
+        #name {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-size: 30px;
+        }
 
         nav ul {
             list-style: none;
@@ -46,9 +55,27 @@
             text-align: center;
             color: white;
             width: 2px solid rgba;
-            border: 2px ridge rgba(0, 0, 0, 0.6);
-            background-color: rgba(0, 0, 0, 0.6);
+            border: transparent;
+            background-color: transparent;
             padding: 2%;
+        }
+        
+        .Portfolio {
+            text-align: center;
+            padding: 20px 0; /* Adjust as needed */
+            color: white;
+        }
+        .Portfolio img {
+            margin-top: 20px; 
+            width: 150px; 
+            height: 150px; 
+            overflow: hidden;
+        }
+
+        .Portfolio .profile-image img {
+            width: 20%; 
+            height: 20%; 
+            object-fit: cover; 
         }
 
         .Portfolio h1 {
@@ -65,8 +92,8 @@
 
         .border{
             width: 2px solid rgba;
-            border: 2px ridge rgba(0, 0, 0, 0.6);
-            background-color: rgba(0, 0, 0, 0.6);
+            border: transparent;
+            background-color: transparent;
             padding: 5px;
            }
 
@@ -90,6 +117,7 @@
     
     <div class="container">
     <header>
+        <div id="name">Natasha</div> 
         <nav>
             <ul>
                 <li><a href="P-ABOUT.html">About Me</a></li>
@@ -102,6 +130,9 @@
     </div>
 
     <div class="Portfolio">
+        <div class="profile-image">
+        <img src="C:\Users\HP\Downloads\Natasha Photo.jpeg" alt="Profile Picture">
+        </div>
         <h1>WELCOME TO MY PORTFOLIO</h1>
     </div>
 
@@ -125,7 +156,7 @@
         
        
         <a href="https://github.com/natashasm123" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="50px" width="50px" alt="GitHub">
+            <img src="https://pngimg.com/d/github_PNG32.png" height="50px" width="50px" alt="GitHub">
         </a>
         
         <a href="https://www.linkedin.com/in/natasha-mali-14a376247" target="_blank">
